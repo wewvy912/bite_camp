@@ -229,6 +229,29 @@ h3 {
 /* В ПРАКТИЧЕСКОЙ №9 студент B должен добавить оформление для нового блока #contacts.
    Не вставляйте готовое решение сюда до начала работы. */
 
+    #contacts {
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    }
+
+    #contacts h2 {
+    margin-bottom: 24px;
+    }
+
+#contacts p {
+    color: var(--muted);
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    }
+
+    #contacts p:last-child {
+    margin-bottom: 0;
+    }
+
+
+
 @media (max-width: 760px) {
     .header-inner,
     .footer-inner,
